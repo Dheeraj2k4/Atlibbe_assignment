@@ -1,0 +1,28 @@
+{
+  "name": "product-transparency-portal",
+  "version": "1.0.0",
+  "description": "Product Transparency Portal - Full Stack Application",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "ai-service"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "jspdf": "^3.0.1"
+  }
+}

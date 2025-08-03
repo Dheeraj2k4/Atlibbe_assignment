@@ -1,0 +1,124 @@
+2025-08-03 11:30:49,019 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 11:36:01,112 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: gpt2
+2025-08-03 11:36:01,113 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 11:36:01,114 - app.models.question_generator - INFO - Generating 5 questions for product
+2025-08-03 11:36:03,160 - app.models.transparency_scorer - INFO - Initializing TransparencyScorer with model: distilbert-base-uncased
+2025-08-03 11:36:03,161 - app.api.routes - INFO - Calculating transparency score for product: Organic Honey
+2025-08-03 11:36:03,162 - app.models.transparency_scorer - INFO - Calculating transparency score for product: Organic Honey
+2025-08-03 12:25:51,740 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:27:50,258 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: gpt2
+2025-08-03 12:27:50,261 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:27:50,262 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:27:50,610 - app.models.question_generator - ERROR - Error calling Hugging Face API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/google/flan-t5-base
+2025-08-03 12:33:48,852 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:33:57,844 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: gpt2
+2025-08-03 12:33:57,845 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:33:57,845 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:33:58,178 - app.models.question_generator - ERROR - Error calling Hugging Face API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/google/flan-t5-base
+2025-08-03 12:34:07,019 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: gpt2
+2025-08-03 12:34:07,020 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:34:07,020 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:34:07,288 - app.models.question_generator - ERROR - Error calling Hugging Face API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/google/flan-t5-base
+2025-08-03 12:38:36,272 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:38:40,514 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: gpt2
+2025-08-03 12:38:40,515 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:38:40,515 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:38:40,855 - app.models.question_generator - ERROR - Error calling Hugging Face API: 404 Client Error: Not Found for url: https://api-inference.huggingface.co/models/google/flan-t5-small
+2025-08-03 12:44:53,266 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:45:05,469 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-03 12:45:08,967 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-03 12:45:28,213 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:45:28,215 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:45:28,215 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:47:32,496 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:47:32,496 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:47:32,496 - app.models.question_generator - INFO - Generating 3 questions for product using FLAN-T5 API
+2025-08-03 12:49:29,602 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:50:19,423 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:50:19,424 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:50:27,443 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:50:27,443 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:50:43,961 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:50:43,962 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:51:00,669 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:51:07,040 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-small
+2025-08-03 12:51:07,041 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:52:32,379 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:52:35,703 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-03 12:52:37,617 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-03 12:53:35,860 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-base
+2025-08-03 12:53:35,861 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:53:52,581 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-base
+2025-08-03 12:53:52,582 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:55:38,814 - app.models.question_generator - INFO - Initializing QuestionGenerator with model: google/flan-t5-base
+2025-08-03 12:55:38,814 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:58:14,952 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:58:23,473 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:58:29,661 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:58:39,311 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 12:58:57,987 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 12:59:13,924 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 13:00:19,453 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 13:00:22,258 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 13:01:19,965 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 13:01:23,622 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 13:03:58,561 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 13:04:06,541 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 13:09:28,846 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 13:18:29,990 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 14:22:43,252 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 14:22:50,758 - app.api.routes - INFO - Generating questions for product: Organic Honey
+2025-08-03 14:23:42,790 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 14:31:47,148 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 14:54:28,473 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 15:04:21,572 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 15:04:21,605 - __main__ - INFO - Starting AI service on 0.0.0.0:8000
+2025-08-03 15:04:23,831 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 15:04:23,900 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 15:07:54,448 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 15:08:03,170 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 15:08:21,703 - app.utils.error_handlers - WARNING - Validation error: [{'location': 'body -> product -> ingredients', 'message': 'str type expected', 'type': 'type_error.str'}]
+2025-08-03 15:08:57,932 - app.api.routes - INFO - Generating questions for product: Test Product
+2025-08-03 15:09:06,651 - app.models.transparency_scorer - INFO - Initializing TransparencyScorer with model: distilbert-base-uncased
+2025-08-03 15:09:06,660 - app.api.routes - INFO - Calculating transparency score for product: Test Product
+2025-08-03 15:09:06,660 - app.models.transparency_scorer - INFO - Calculating transparency score for product: Test Product
+2025-08-03 15:09:23,210 - app.utils.error_handlers - WARNING - Validation error: [{'location': 'body -> product -> ingredients', 'message': 'str type expected', 'type': 'type_error.str'}]
+2025-08-03 15:14:47,564 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 15:22:00,369 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 15:24:23,185 - app.api.routes - INFO - Generating questions for product: PS5
+2025-08-03 15:37:33,085 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 15:48:04,766 - app.api.routes - INFO - Generating questions for product: Lenovo Laptop
+2025-08-03 15:52:29,887 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 15:59:30,293 - app.api.routes - INFO - Generating questions for product: asus laptop
+2025-08-03 16:19:05,052 - app.api.routes - INFO - Generating questions for product: hjgvhjg
+2025-08-03 16:23:41,666 - app.api.routes - INFO - Generating questions for product: asus
+2025-08-03 16:32:46,061 - app.api.routes - INFO - Generating questions for product: fdfd
+2025-08-03 16:41:10,593 - app.api.routes - INFO - Generating questions for product: hjgvhjg
+2025-08-03 16:54:26,061 - app.api.routes - INFO - Generating questions for product: hjgvhjg
+2025-08-03 16:55:10,140 - app.api.routes - INFO - Generating questions for product: asus
+2025-08-03 16:56:24,105 - app.api.routes - INFO - Generating questions for product: Dheeraj Syam Bhaskar Talapagala
+2025-08-03 16:59:43,655 - app.api.routes - INFO - Generating questions for product: Dheeraj Syam Bhaskar Talapagala
+2025-08-03 17:07:22,111 - app.api.routes - INFO - Generating questions for product: Dheeraj Syam Bhaskar Talapagala
+2025-08-03 17:37:13,422 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 17:49:37,670 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 17:50:33,699 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 17:55:32,914 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 18:29:31,362 - app.api.routes - INFO - Generating questions for product: Dheeraj Syam Bhaskar Talapagala
+2025-08-03 18:49:45,138 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 18:53:07,267 - app.api.routes - INFO - Generating questions for product: rf
+2025-08-03 19:28:38,625 - app.api.routes - INFO - Generating questions for product: Dheeraj Syam Bhaskar Talapagala
+2025-08-03 19:56:42,413 - app.api.routes - INFO - Generating questions for product: Asus strix g16
+2025-08-03 20:02:38,724 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 20:02:43,933 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 20:07:03,056 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 20:13:06,167 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 20:17:04,318 - app.utils.logging_config - INFO - Logging configured with level: INFO
+2025-08-03 20:18:04,047 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 20:23:01,332 - app.api.routes - INFO - Generating questions for product: Dheeraj
+2025-08-03 20:44:17,081 - app.api.routes - INFO - Generating questions for product: asus laptop
+2025-08-03 20:48:40,307 - app.api.routes - INFO - Generating questions for product: asus laptop
+2025-08-03 20:55:41,705 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 21:10:48,205 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 21:25:37,341 - app.api.routes - INFO - Generating questions for product: Dheeraj Talapagala
+2025-08-03 22:14:59,237 - app.api.routes - INFO - Generating questions for product: Organic honey
+2025-08-03 22:35:06,223 - app.api.routes - INFO - Generating questions for product: Dheeraj
