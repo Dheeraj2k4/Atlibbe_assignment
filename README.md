@@ -80,10 +80,12 @@ The AI service will be available at http://localhost:8000
 
 ## Screenshots
 
-![Form Step 1](./Screenshot_2025-08-03_225741.png)
-![Form Step 2](./Screenshot_2025-08-03_225752.png)
-![Form Step 3](./Screenshot_2025-08-03_225821.png)
-![PDF Preview](./Screenshot_2025-08-03_225829.png)
+## Demo Screenshots
+
+![Screenshot 1](./Atlibbe_assignment/screenshot1.png)
+![Screenshot 2](./Atlibbe_assignment/screenshot2.png)
+![Screenshot 3](./Atlibbe_assignment/screenshot3.png)
+![Screenshot 4](./Atlibbe_assignment/screenshot4.png)
 
 
 ## Deployment
