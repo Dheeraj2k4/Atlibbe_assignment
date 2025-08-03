@@ -10,7 +10,7 @@ The Product Transparency Portal allows companies to submit detailed information 
 
 - **Frontend**: React + TypeScript
 - **Backend**: Node.js with Express
-- **Database**: PostgreSQL
+- **Database**: MongoDB
 - **AI Microservice**: FastAPI (Python)
 
 ## Features
@@ -83,20 +83,10 @@ The AI service will be available at http://localhost:8000
 }
 ```
 
-## Reflection on AI and Transparency Design Principles
-
-In developing the Product Transparency Portal, we've embraced AI as a tool to enhance transparency rather than obscure it. By using AI to generate contextually relevant follow-up questions, we create a more thorough and meaningful transparency assessment that adapts to each product's unique characteristics. This approach acknowledges that transparency isn't one-size-fits-all—different products require different types of disclosure.
-
-Our design principles center on making transparency accessible and actionable. Rather than overwhelming consumers with technical jargon or excessive information, we focus on presenting transparency data in a clear, structured format that highlights what matters most. The PDF reports are designed to be both comprehensive for those who want details and scannable for those seeking quick insights.
-
-Ultimately, this project represents our belief that technology should serve to illuminate rather than complicate, empowering both companies to communicate their values and consumers to make informed, health-conscious decisions.
-
 ## Screenshots
 
-[Sample Report Screenshot - Coming Soon]
 
 ## Deployment
 
 - Frontend: Deployed on Vercel at [URL]
 - Backend & AI Service: Deployed on Render at [URL]
-- GitHub Repository: [URL]
