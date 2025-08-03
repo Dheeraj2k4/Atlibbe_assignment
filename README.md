@@ -75,9 +75,6 @@ The AI service will be available at http://localhost:8000
   "name": "Organic Multivitamin",
   "description": "Daily multivitamin made with organic ingredients",
   "category": "Supplements",
-  "ingredients": ["Vitamin C", "Vitamin D", "Zinc", "Organic Fruit Blend"],
-  "manufacturing_location": "USA",
-  "certifications": ["USDA Organic", "Non-GMO Project Verified"]
 }
 ```
 
